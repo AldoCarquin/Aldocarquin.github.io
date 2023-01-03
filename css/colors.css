@@ -1,0 +1,165 @@
+:root {
+    --blanco: #fafafa;
+    --negro: #12191c;
+    --azul: #15364a;
+    /* Colores de maqueteo */
+    --red: #ff0000;
+    --blue: #0000ff;
+    --yellow: #ffff00;
+    --green: #00ff00;
+    --cyan: #00ffff;
+    --orange: #ff5e00;
+    --magenta: #ff00ff;
+    --black: #000000;
+    --white: #ffffff;
+
+}
+
+/* Color */
+
+.blanco {
+    color: var(--blanco);
+}
+
+.azul {
+    color: var(--azul);
+}
+
+.negro {
+    color: var(--negro);
+}
+
+.red {
+    color: var(--red);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.green {
+    color: var(--green);
+}
+
+.cyan {
+    color: var(--cyan);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.magenta {
+    color: var(--magenta);
+}
+
+.black {
+    color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+/* fondo */
+
+.bgc-blanco {
+    background-color: var(--blanco);
+}
+
+.bgc-azul {
+    background-color: var(--azul);
+}
+
+.bgc-negro {
+    background-color: var(--negro);
+}
+
+.bgc-red {
+    background-color: var(--red);
+}
+
+.bgc-blue {
+    background-color: var(--blue);
+}
+
+.bgc-yellow {
+    background-color: var(--yellow);
+}
+
+.bgc-green {
+    background-color: var(--green);
+}
+
+.bgc-cyan {
+    background-color: var(--cyan);
+}
+
+.bgc-orange {
+    background-color: var(--orange);
+}
+
+.bgc-magenta {
+    background-color: var(--magenta);
+}
+
+.bgc-black {
+    background-color: var(--black);
+}
+
+.bgc-white {
+    background-color: var(--white);
+}
+/* borders */
+
+.border-blanco {
+    border-color: var(--blanco);
+}
+
+.border-azul {
+    border-color: var(--azul);
+}
+
+.border-negro {
+    border-color: var(--negro);
+}
+
+.border-red {
+    border-color: var(--red);
+}
+
+.border-blue {
+    border-color: var(--blue);
+}
+
+.border-yellow {
+    border-color: var(--yellow);
+}
+
+.border-green {
+    border-color: var(--green);
+}
+
+.border-cyan {
+    border-color: var(--cyan);
+}
+
+.border-orange {
+    border-color: var(--orange);
+}
+
+.border-magenta {
+    border-color: var(--magenta);
+}
+
+.border-black {
+    border-color: var(--black);
+}
+
+.border-white {
+    border-color: var(--white);
+}

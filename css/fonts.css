@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.f-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.f-verdana {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fsp-8 {
+font-size: 8px;
+}
+.fsp-9 {
+font-size: 9px;
+}
+.fsp-10 {
+font-size: 10px;
+}
+.fsp-11 {
+font-size: 11px;
+}
+.fsp-12 {
+font-size: 12px;
+}
+.fsp-13 {
+font-size: 13px;
+}
+.fsp-14 {
+font-size: 14px;
+}
+.fsp-15 {
+font-size: 15px;
+}
+.fsp-16 {
+font-size: 16px;
+}
+.fsp-17 {
+font-size: 17px;
+}
+.fsp-18 {
+font-size: 18px;
+}
+.fsp-19 {
+font-size: 19px;
+}
+.fsp-20 {
+font-size: 20px;
+}
+.fsp-22 {
+font-size: 22px;
+}
+.fsp-24 {
+font-size: 24px;
+}
+.fsp-26 {
+font-size: 26px;
+}
+.fsp-28 {
+font-size: 28px;
+}
+.fsp-30 {
+font-size: 30px;
+}
+.fsp-32 {
+font-size: 32px;
+}
+.fsp-34 {
+font-size: 34px;
+}
+.fsp-36 {
+font-size: 36px;
+}
+.fsp-38 {
+font-size: 38px;
+}
+.fsp-40 {
+font-size: 40px;
+}
+.fsp-50 {
+font-size: 50px;
+}
+.fsp-60 {
+font-size: 60px;
+}
+.fsp-70 {
+font-size: 70px;
+}
+.fsp-80 {
+font-size: 80px;
+}
+.fsp-90 {
+font-size: 90px;
+}
+.fsp-100 {
+font-size: 100px;
+}
+.fsp-110 {
+font-size: 110px;
+}
+.fsp-120 {
+font-size: 120px;
+}
+
+.f-thin{
+    font-weight: 100;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.f-light {
+    font-weight: 300;
+}
+.f-regular {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.f-bold {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.f-black {
+    font-weight: 900;
+}

@@ -1,0 +1,28 @@
+.bandeja {
+  width: 1300px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.parrafo {
+  font-size: 20px;
+}
+
+@media (max-width: 1350px) {
+  .bandeja {
+    width: 1000px;
+  }
+}
+@media (max-width: 1050px) {
+  .bandeja {
+    width: 700px;
+  }
+}
+@media (max-width: 790px) {
+  .bandeja {
+    width: 90%;
+  }
+  .parrafo {
+    font-size: 16px;
+  }
+}
