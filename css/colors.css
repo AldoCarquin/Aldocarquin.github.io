@@ -2,6 +2,7 @@
     --blanco: #fafafa;
     --negro: #12191c;
     --azul: #15364a;
+    --celeste: #0096d7;
     /* Colores de maqueteo */
     --red: #ff0000;
     --blue: #0000ff;
@@ -15,6 +16,14 @@
 
 }
 
+/* customs */
+.color-bulb {
+    color: var(--azul);
+}
+.color-bulb:hover {
+    color: var(--celeste);
+}
+
 /* Color */
 
 .blanco {
@@ -23,6 +32,10 @@
 
 .azul {
     color: var(--azul);
+}
+
+.celeste {
+    color: var(--celeste);
 }
 
 .negro {
@@ -75,6 +88,10 @@
     background-color: var(--azul);
 }
 
+.bgc-celeste {
+    background-color: var(--celeste);
+}
+
 .bgc-negro {
     background-color: var(--negro);
 }
@@ -122,6 +139,10 @@
 
 .border-azul {
     border-color: var(--azul);
+}
+
+.border-celeste {
+    border-color: var(--celeste);
 }
 
 .border-negro {
