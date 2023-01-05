@@ -159,7 +159,7 @@
     min-width: 120px;
 }
 .mnwp-200 {
-    white-space: nowrap;
+    min-width: 200px;
 }
 .mnwp-500 {
     min-width: 500px;
@@ -281,6 +281,9 @@
 .hp-20 {
     height: 20px;
 }
+.hp-25 {
+    height: 25px;
+}
 .hp-30 {
     height: 30px;
 }
@@ -361,6 +364,9 @@
 /* MAX HEIGHT PX */
 .mxhp-20 {
     max-height: 20px;
+}
+.mxhp-25 {
+    max-height: 25px;
 }
 .mxhp-60 {
     max-height: 60px;
@@ -589,6 +595,9 @@
 }
 .psp-30 {
     padding-left: 30px;
+}
+.psp-40 {
+    padding-left: 40px;
 }
 .psp-100 {
     padding-left: 100px;
@@ -838,6 +847,9 @@
 }
 .mtp--10 {
     margin-top: -10px;
+}
+.mtp--5 {
+    margin-top: -5px;
 }
 .mtp-1 {
     margin-top: 1px;

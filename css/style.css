@@ -26,6 +26,8 @@
   font-weight: 900;
 }
 
+
+
 a:link, a:hover, a:visited, a:active, a:after, a {
   text-decoration:none;
   color: none;
@@ -34,6 +36,12 @@ a:link, a:hover, a:visited, a:active, a:after, a {
 @media (max-width: 1350px) {
   .bandeja {
     width: 1000px;
+  }
+}
+
+@media (max-width: 1350px) and (min-width: 1200px) {
+  .pass-1350 {
+    display: flex!important;
   }
 }
 @media (max-width: 1050px) {
