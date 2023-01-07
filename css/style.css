@@ -1,3 +1,6 @@
+.no-decotext {
+  text-decoration: none !important;
+}
 .bandeja {
   width: 1300px;
   margin-left: auto !important;
@@ -18,6 +21,12 @@
   font-weight: 900;
 }
 
+.link-cv {
+  color: var(--blanco);
+}
+.link-cv :hover{
+  color: var(--celeste);
+}
 .link-blanco {
   color: var(--blanco);
 }
@@ -25,6 +34,7 @@
 .link-blanco:hover {
   color: var(--celeste);
   font-weight: 900;
+  background-color: #fafafa;
 }
 
 .p-5-responsive {
