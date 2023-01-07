@@ -222,6 +222,9 @@
 
 
 /* HEIGHT  */
+.h-auto {
+    height: auto;
+}
 .h-1 {
     height: 1%;
 }
