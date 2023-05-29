@@ -435,8 +435,14 @@ hyphens: none !important;
 .min-hp-35 {
     min-height: 35px;
 }
+.min-hp-40 {
+    min-height: 40px;
+}
 .min-hp-70 {
     min-height: 70px;
+}
+.min-hp-80 {
+    min-height: 80px;
 }
 .min-hp-180 {
     min-height: 180px;
