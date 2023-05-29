@@ -435,6 +435,9 @@ hyphens: none !important;
 .min-hp-35 {
     min-height: 35px;
 }
+.min-hp-70 {
+    min-height: 70px;
+}
 .min-hp-180 {
     min-height: 180px;
 }
@@ -453,6 +456,9 @@ hyphens: none !important;
 }
 .mxhp-25 {
     max-height: 25px;
+}
+.mxhp-40 {
+    max-height: 40px;
 }
 .mxhp-50 {
     max-height: 50px;
