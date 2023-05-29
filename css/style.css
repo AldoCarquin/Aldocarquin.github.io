@@ -1,0 +1,259 @@
+.linea {
+    width: 30px;
+    border-bottom: 0.5px;
+    border-style: solid;
+}
+
+.ajuste-columna {
+    max-width: 400px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.punto {
+    width: 10px;
+    height: 10px;
+    background: var(--lima);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.puntos {
+    width: 12px;
+    height: 12px;
+    background: var(--zull);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.punto-no {
+    width: 12px;
+    height: 12px;
+    background: #fafafa;
+    border: 2px solid;
+    border-color: var(--zull);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.btn-contactame {
+    background-color: var(--antena2) !important;
+}
+
+.border-btn-contactame {
+    border-color: var(--antena2) !important;
+}
+
+.letra-contactame {
+    color: var(--zull) !important;
+}
+
+.btn-contactame:hover {
+    background-color: var(--zull) !important;
+    transition: 100ms;
+}
+
+.border-btn-contactame:hover {
+    border-color: var(--antena2) !important;
+    transition: 100ms;
+}
+
+.letra-contactame:hover {
+    color: var(--antena2) !important;
+    transition: 100ms;
+}
+
+.fill-habilidades {
+    fill: var(--zull) !important;
+}
+
+.fill-habilidades:hover {
+    fill: var(--antena2) !important;
+    transition: 100ms;
+}
+
+.color-habilidades {
+    color: var(--zull) !important;
+}
+
+.color-habilidades:hover {
+    color: var(--antena2) !important;
+    transition: 100ms;
+}
+
+.fill-proyectos {
+    fill: var(--chicle) !important;
+}
+
+.fill-proyectos:hover {
+    fill: var(--antena2) !important;
+    transition: 100ms;
+}
+
+.color-proyectos {
+    color: var(--chicle) !important;
+}
+
+.color-proyectos:hover {
+    color: var(--antena2) !important;
+    transition: 100ms;
+}
+
+.fill-cv {
+    fill: var(--uva) !important;
+}
+
+.fill-cv:hover {
+    fill: var(--antena2) !important;
+    transition: 100ms;
+}
+
+.color-cv {
+    color: var(--uva) !important;
+}
+
+.color-cv:hover {
+    color: var(--antena2) !important;
+    transition: 100ms;
+}
+
+.fill-rrss {
+    fill: var(--negro) !important;
+}
+
+.fill-rrss:hover {
+    fill: var(--antena2) !important;
+    transition: 400ms;
+}
+
+.ajuste-border {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.espaciado-res {
+    margin-bottom: 0px;
+}
+
+.borde-izq-cv {
+    margin-right: 10px;
+}
+
+.borde-der-cv {
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.boton-vermas {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 30px;
+    text: center;
+    background-color: #12191c;
+    color: #fafafa;
+    border: none;
+
+}
+
+.boton-vermas :hover {
+    background-color: var(--uva);
+    color: #fafafa;
+    border-radius: 30px;
+}
+
+.ver-menos {
+    visibility: hidden;
+    position: absolute;
+    z-index: -5;
+}
+
+.mbp-md-20 {
+    margin-bottom: 0px;
+}
+
+.vis-575 {
+    visibility: visible;
+    position: inherit;
+}
+.invis-575 {
+    visibility: hidden;
+    position: absolute;
+}
+.vis-960 {
+    visibility: visible;
+    position: inherit;
+}
+.invis-960 {
+    visibility: hidden;
+    position: absolute;
+}
+.vis-lg {
+    visibility: visible;
+    position: inherit;
+}
+.invis-lg {
+    visibility: hidden;
+    position: absolute;
+}
+
+@media (max-width: 1199px) {
+    .espaciado-res {
+        margin-bottom: 20px;
+    }
+
+    .borde-izq-cv {
+        margin-right: 0px;
+    }
+
+    .borde-der-cv {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .ajuste-border {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .vis-lg {
+        visibility: visible;
+        position: inherit;
+    }
+    .invis-lg {
+        visibility: hidden;
+        position: absolute;
+    }
+}
+@media (max-width: 960px) {
+    .vis-960 {
+        visibility: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+    .invis-960 {
+        visibility: visible;
+        position: inherit;
+    }
+}
+@media (max-width: 767px) {
+    .mbp-md-20 {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 575px) {
+    .vis-575 {
+        visibility: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+    .invis-575 {
+        visibility: visible;
+        position: inherit;
+    }
+}
