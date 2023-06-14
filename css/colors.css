@@ -29,6 +29,16 @@
     --black: #000000;
     --white: #ffffff;
 
+    /* BRAND COLORS */
+    --spgreen: #009247;
+
+}
+
+.color-none {
+    color: none!important;
+}
+.bgc-none {
+    background-color: none!important;
 }
 
 /* Color */
@@ -420,4 +430,13 @@
 }
 .fill-antena1 {
     color: var(--antena1);
+}
+
+/* BRAND COLORS */
+
+.spgreen {
+    color: var(--spgreen);
+}
+.bgc-spgreen {
+    background-color: var(--spgreen);
 }

@@ -175,6 +175,9 @@ hyphens: none !important;
 .mnwp-40 {
     min-width: 40px;
 }
+.mnwp-50 {
+    min-width: 50px;
+}
 .mnwp-100 {
     min-width: 100px;
 }

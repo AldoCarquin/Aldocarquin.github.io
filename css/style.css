@@ -199,6 +199,17 @@
     position: absolute;
 }
 
+.proyect-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hover-zull :hover{
+    background-color: var(--zull);;
+    color: var(--antena1);
+    transition: 200ms;
+}
+
 @media (max-width: 1199px) {
     .espaciado-res {
         margin-bottom: 20px;
