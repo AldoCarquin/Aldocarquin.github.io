@@ -36,6 +36,7 @@
     --ingrid: #ec0166;
     --bomberos: #b95849;
     --portas: #0097ce;
+    --septa: #003595;
 
 }
 
@@ -766,6 +767,43 @@
 
 .letra-portas:hover {
     color: var(--antena1);
+}
+.fill-portas {
+    fill: var(--portas);
+}
+
+.fill-portas:hover {
+    fill: var(--antena1);
+}
+.septa {
+    color: var(--septa);
+}
+
+.bgc-septa {
+    background-color: var(--septa);
+}
+
+.bgch-septa {
+    background-color: var(--antena2);
+}
+
+.bgch-septa:hover {
+    background-color: var(--septa);
+}
+
+.letra-septa {
+    color: var(--septa);
+}
+
+.letra-septa:hover {
+    color: var(--antena1);
+}
+.fill-septa {
+    fill: var(--septa);
+}
+
+.fill-septa:hover {
+    fill: var(--antena1);
 }
 .letra-zull {
     color: var(--zull);
