@@ -242,6 +242,14 @@
     opacity: 0.6;
   }
 
+  .splogo {
+    min-width: 50px;
+    min-height: 50px;
+    background-image: url(media\logos\sp_comercial_w.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 @media (max-width: 1199px) {
     .espaciado-res {

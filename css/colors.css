@@ -605,6 +605,13 @@
 .bgch-spgreen:hover {
     background-color: var(--spgreen);
 }
+.fill-spgreen {
+    fill: var(--spgreen);
+}
+
+.fill-spgreen:hover {
+    fill: var(--antena2);
+}
 
 .letra-sp {
     color: var(--spgreen);
@@ -637,6 +644,13 @@
 .letra-arh:hover {
     color: var(--antena1);
 }
+.fill-arhzull {
+    fill: var(--arhzull);
+}
+
+.fill-arhzull:hover {
+    fill: var(--antena1);
+}
 
 .smrush {
     color: var(--smrush);
@@ -660,6 +674,13 @@
 
 .letra-smrush:hover {
     color: var(--antena1);
+}
+.fill-smrush {
+    fill: var(--smrush);
+}
+
+.fill-smrush:hover {
+    fill: var(--antena1);
 }
 
 .ingrid {
