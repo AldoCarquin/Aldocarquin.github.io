@@ -706,6 +706,13 @@
 .letra-ingrid:hover {
     color: var(--antena1);
 }
+.fill-ingrid {
+    fill: var(--ingrid);
+}
+
+.fill-ingrid:hover {
+    fill: var(--antena1);
+}
 
 .bombero {
     color: var(--bomberos);
@@ -729,6 +736,13 @@
 
 .letra-bomberos:hover {
     color: var(--antena1);
+}
+.fill-bomberos {
+    fill: var(--bomberos);
+}
+
+.fill-bomberos:hover {
+    fill: var(--antena1);
 }
 .portas {
     color: var(--portas);
