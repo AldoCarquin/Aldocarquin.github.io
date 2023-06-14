@@ -1,5 +1,5 @@
 :root {
-        /* Portfolio */
+    /* Portfolio */
     --zull: #1F32E5;
     --tangerina: #D66700;
     --sour: #ABC701;
@@ -13,7 +13,7 @@
     --antena3: #a3a3a3;
     --antena2: #D9D9D9;
     --antena1: #F5F5F5;
-        /* STANDARD */
+    /* STANDARD */
     --blanco: #fafafa;
     --negro: #12191c;
     --azul: #15364a;
@@ -31,53 +31,71 @@
 
     /* BRAND COLORS */
     --spgreen: #009247;
+    --arhzull: #00246f;
+    --smrush: #ff001b;
+    --ingrid: #ec0166;
+    --bomberos: #b95849;
+    --portas: #0097ce;
 
 }
 
 .color-none {
-    color: none!important;
+    color: none !important;
 }
+
 .bgc-none {
-    background-color: none!important;
+    background-color: none !important;
 }
 
 /* Color */
 .zull {
     color: var(--zull);
 }
+
 .tangerina {
     color: var(--tangerina);
 }
+
 .sour {
     color: var(--sour);
 }
+
 .piopio {
     color: var(--piopio);
 }
+
 .rush {
     color: var(--rush);
 }
+
 .lima {
     color: var(--lima);
 }
+
 .chicle {
     color: var(--chicle);
 }
+
 .uva {
     color: var(--uva);
 }
+
 .nyan {
     color: var(--nyan);
 }
+
 .petroleo {
     color: var(--petroleo);
 }
+
 .antena3 {
     color: var(--antena3);
 }
+
 .antena2 {
     color: var(--antena2);
 }
+
 .antena1 {
     color: var(--antena1);
 }
@@ -138,39 +156,51 @@
 .bgc-zull {
     background-color: var(--zull);
 }
+
 .bgc-tangerina {
     background-color: var(--tangerina);
 }
+
 .bgc-sour {
     background-color: var(--sour);
 }
+
 .bgc-piopio {
     background-color: var(--piopio);
 }
+
 .bgc-rush {
     background-color: var(--rush);
 }
+
 .bgc-lima {
     background-color: var(--lima);
 }
+
 .bgc-chicle {
     background-color: var(--chicle);
 }
+
 .bgc-uva {
     background-color: var(--uva);
 }
+
 .bgc-nyan {
     background-color: var(--nyan);
 }
+
 .bgc-petroleo {
     background-color: var(--petroleo);
 }
+
 .bgc-antena3 {
     background-color: var(--antena3);
 }
+
 .bgc-antena2 {
     background-color: var(--antena2);
 }
+
 .bgc-antena1 {
     background-color: var(--antena1);
 }
@@ -226,43 +256,56 @@
 .bgc-white {
     background-color: var(--white);
 }
+
 /* borders */
 .border-zull {
     border-color: var(--zull) !important;
 }
+
 .border-tangerina {
     border-color: var(--tangerina) !important;
 }
+
 .border-sour {
     border-color: var(--sour) !important;
 }
+
 .border-piopio {
     border-color: var(--piopio) !important;
 }
+
 .border-rush {
     border-color: var(--rush) !important;
 }
+
 .border-lima {
     border-color: var(--lima) !important;
 }
+
 .border-chicle {
     border-color: var(--chicle) !important;
 }
+
 .border-uva {
     border-color: var(--uva) !important;
 }
+
 .border-nyan {
     border-color: var(--nyan) !important;
 }
+
 .border-petroleo {
     border-color: var(--petroleo) !important;
 }
+
 .border-antena3 {
     border-color: var(--antena3) !important;
 }
+
 .border-antena2 {
     border-color: var(--antena2) !important;
 }
+
 .border-antena1 {
     border-color: var(--antena1) !important;
 }
@@ -323,71 +366,90 @@
 .bch-zull {
     background-color: var(--antena2) !important;
 }
-.bch-zull:hover{
-    background-color: var(--zull)!important;
+
+.bch-zull:hover {
+    background-color: var(--zull) !important;
     transition: 400ms;
 }
+
 .bch-tangerina {
     background-color: var(--antena2) !important;
 }
-.bch-tangerina:hover{
-    background-color: var(--tangerina)!important;
+
+.bch-tangerina:hover {
+    background-color: var(--tangerina) !important;
     transition: 400ms;
 }
+
 .bch-sour {
     background-color: var(--antena2) !important;
 }
-.bch-sour:hover{
-    background-color: var(--sour)!important;
+
+.bch-sour:hover {
+    background-color: var(--sour) !important;
     transition: 400ms;
 }
+
 .bch-piopio {
     background-color: var(--antena2) !important;
 }
-.bch-piopio:hover{
-    background-color: var(--piopio)!important;
+
+.bch-piopio:hover {
+    background-color: var(--piopio) !important;
     transition: 400ms;
 }
+
 .bch-rush {
     background-color: var(--antena2) !important;
 }
-.bch-rush:hover{
-    background-color: var(--rush)!important;
+
+.bch-rush:hover {
+    background-color: var(--rush) !important;
     transition: 400ms;
 }
+
 .bch-lima {
     background-color: var(--antena2) !important;
 }
-.bch-lima:hover{
-    background-color: var(--lima)!important;
+
+.bch-lima:hover {
+    background-color: var(--lima) !important;
     transition: 400ms;
 }
+
 .bch-chicle {
     background-color: var(--antena2) !important;
 }
-.bch-chicle:hover{
-    background-color: var(--chicle)!important;
+
+.bch-chicle:hover {
+    background-color: var(--chicle) !important;
     transition: 400ms;
 }
+
 .bch-uva {
     background-color: var(--antena2) !important;
 }
-.bch-uva:hover{
-    background-color: var(--uva)!important;
+
+.bch-uva:hover {
+    background-color: var(--uva) !important;
     transition: 400ms;
 }
+
 .bch-nyan {
     background-color: var(--antena2) !important;
 }
-.bch-nyan:hover{
-    background-color: var(--nyan)!important;
+
+.bch-nyan:hover {
+    background-color: var(--nyan) !important;
     transition: 400ms;
 }
+
 .bch-petroleo {
     background-color: var(--antena2) !important;
 }
-.bch-petroleo:hover{
-    background-color: var(--petroleo)!important;
+
+.bch-petroleo:hover {
+    background-color: var(--petroleo) !important;
     transition: 400ms;
 }
 
@@ -395,39 +457,51 @@
 .fill-zull {
     fill: var(--zull) !important;
 }
+
 .fill-tangerina {
-   fill: var(--tangerina);
+    fill: var(--tangerina);
 }
+
 .fill-sour {
     color: var(--sour);
 }
+
 .fill-piopio {
     color: var(--piopio);
 }
+
 .fill-rush {
     color: var(--rush);
 }
+
 .fill-lima {
     color: var(--lima);
 }
+
 .fill-chicle {
     color: var(--chicle);
 }
+
 .fill-uva {
     color: var(--uva);
 }
+
 .fill-nyan {
     color: var(--nyan);
 }
+
 .fill-petroleo {
     color: var(--petroleo);
 }
+
 .fill-antena3 {
     color: var(--antena3);
 }
+
 .fill-antena2 {
     color: var(--antena2);
 }
+
 .fill-antena1 {
     color: var(--antena1);
 }
@@ -437,62 +511,81 @@
 .bgch-zull {
     background-color: var(--antena2);
 }
-.bgch-zull:hover{
-    background-color: var(--zull)!important;
+
+.bgch-zull:hover {
+    background-color: var(--zull) !important;
 }
+
 .bgch-tangerina {
     background-color: var(--antena2);
 }
+
 .bgch-tangerina:hover {
-    background-color: var(--tangerina)!important;
+    background-color: var(--tangerina) !important;
 }
+
 .bgch-sour {
     background-color: var(--antena2);
 }
-.bgch-sour:hover{
-    background-color: var(--sour)!important;
+
+.bgch-sour:hover {
+    background-color: var(--sour) !important;
 }
+
 .bgch-piopio {
     background-color: var(--antena2);
 }
-.bgch-piopio:hover{
-    background-color: var(--piopio)!important;
+
+.bgch-piopio:hover {
+    background-color: var(--piopio) !important;
 }
+
 .bgch-rush {
     background-color: var(--antena2);
 }
-.bgch-rush:hover{
-    background-color: var(--rush)!important;
+
+.bgch-rush:hover {
+    background-color: var(--rush) !important;
 }
+
 .bgch-lima {
     background-color: var(--antena2);
 }
-.bgch-lima:hover{
-    background-color: var(--lima)!important;
+
+.bgch-lima:hover {
+    background-color: var(--lima) !important;
 }
+
 .bgch-chicle {
     background-color: var(--antena2);
 }
-.bgch-chicle:hover{
-    background-color: var(--chicle)!important;
+
+.bgch-chicle:hover {
+    background-color: var(--chicle) !important;
 }
+
 .bgch-uva {
     background-color: var(--antena2);
 }
-.bgch-uva:hover{
-    background-color: var(--uva)!important;
+
+.bgch-uva:hover {
+    background-color: var(--uva) !important;
 }
+
 .bgch-nyan {
     background-color: var(--antena2);
 }
-.bgch-nyan:hover{
-    background-color: var(--nyan)!important;
+
+.bgch-nyan:hover {
+    background-color: var(--nyan) !important;
 }
+
 .bgch-petroleo {
     background-color: var(--antena2);
 }
-.bgch-petroleo:hover{
-    background-color: var(--petroleo)!important;
+
+.bgch-petroleo:hover {
+    background-color: var(--petroleo) !important;
 }
 
 /* BRAND COLORS */
@@ -500,6 +593,163 @@
 .spgreen {
     color: var(--spgreen);
 }
+
 .bgc-spgreen {
     background-color: var(--spgreen);
+}
+
+.bgch-spgreen {
+    background-color: var(--antena2);
+}
+
+.bgch-spgreen:hover {
+    background-color: var(--spgreen);
+}
+
+.letra-sp {
+    color: var(--spgreen);
+}
+
+.letra-sp:hover {
+    color: var(--antena1);
+}
+
+.arhzull {
+    color: var(--arhzull);
+}
+
+.bgc-arhzull {
+    background-color: var(--arhzull);
+}
+
+.bgch-arhzull {
+    background-color: var(--antena2);
+}
+
+.bgch-arhzull:hover {
+    background-color: var(--arhzull);
+}
+
+.letra-arh {
+    color: var(--arhzull);
+}
+
+.letra-arh:hover {
+    color: var(--antena1);
+}
+
+.smrush {
+    color: var(--smrush);
+}
+
+.bgc-smrush {
+    background-color: var(--smrush);
+}
+
+.bgch-smrush {
+    background-color: var(--antena2);
+}
+
+.bgch-smrush:hover {
+    background-color: var(--smrush);
+}
+
+.letra-smrush {
+    color: var(--smrush);
+}
+
+.letra-smrush:hover {
+    color: var(--antena1);
+}
+
+.ingrid {
+    color: var(--ingrid);
+}
+
+.bgc-ingrid {
+    background-color: var(--ingrid);
+}
+
+.bgch-ingrid {
+    background-color: var(--antena2);
+}
+
+.bgch-ingrid:hover {
+    background-color: var(--ingrid);
+}
+
+.letra-ingrid {
+    color: var(--ingrid);
+}
+
+.letra-ingrid:hover {
+    color: var(--antena1);
+}
+
+.bombero {
+    color: var(--bomberos);
+}
+
+.bgc-bomberos {
+    background-color: var(--bomberos);
+}
+
+.bgch-bomberos {
+    background-color: var(--antena2);
+}
+
+.bgch-bomberos:hover {
+    background-color: var(--bomberos);
+}
+
+.letra-bomberos {
+    color: var(--bomberos);
+}
+
+.letra-bomberos:hover {
+    color: var(--antena1);
+}
+.portas {
+    color: var(--portas);
+}
+
+.bgc-portas {
+    background-color: var(--portas);
+}
+
+.bgch-portas {
+    background-color: var(--antena2);
+}
+
+.bgch-portas:hover {
+    background-color: var(--portas);
+}
+
+.letra-portas {
+    color: var(--portas);
+}
+
+.letra-portas:hover {
+    color: var(--antena1);
+}
+.letra-zull {
+    color: var(--zull);
+}
+
+.letra-zull:hover {
+    color: var(--antena1);
+}
+.letra-piopio {
+    color: var(--piopio);
+}
+
+.letra-piopio:hover {
+    color: var(--antena1);
+}
+.letra-uva {
+    color: var(--uva);
+}
+
+.letra-uva:hover {
+    color: var(--antena1);
 }
