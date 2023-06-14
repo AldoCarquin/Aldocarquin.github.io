@@ -209,6 +209,39 @@
     color: var(--antena1);
     transition: 200ms;
 }
+.card {
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    transition: all 0.3s;
+    border: none;
+    object-fit: cover;
+  }
+  
+  .card:hover {
+    width: 80%;
+  }
+
+  .hover-texto {
+    color: var(--negro);
+  }
+  .hover-texto :hover{
+    color: var(--antena1);
+  }
+
+  .card img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .byn {
+    filter: grayscale(100%);
+    opacity: 0.3;
+  }
+  .byn:hover{
+    filter: grayscale(100%);
+    opacity: 0.6;
+  }
+  
 
 @media (max-width: 1199px) {
     .espaciado-res {

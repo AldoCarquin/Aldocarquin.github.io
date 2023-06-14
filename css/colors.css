@@ -432,6 +432,69 @@
     color: var(--antena1);
 }
 
+/* Fondo Hover */
+/* fondo */
+.bgch-zull {
+    background-color: var(--antena2);
+}
+.bgch-zull:hover{
+    background-color: var(--zull)!important;
+}
+.bgch-tangerina {
+    background-color: var(--antena2);
+}
+.bgch-tangerina:hover {
+    background-color: var(--tangerina)!important;
+}
+.bgch-sour {
+    background-color: var(--antena2);
+}
+.bgch-sour:hover{
+    background-color: var(--sour)!important;
+}
+.bgch-piopio {
+    background-color: var(--antena2);
+}
+.bgch-piopio:hover{
+    background-color: var(--piopio)!important;
+}
+.bgch-rush {
+    background-color: var(--antena2);
+}
+.bgch-rush:hover{
+    background-color: var(--rush)!important;
+}
+.bgch-lima {
+    background-color: var(--antena2);
+}
+.bgch-lima:hover{
+    background-color: var(--lima)!important;
+}
+.bgch-chicle {
+    background-color: var(--antena2);
+}
+.bgch-chicle:hover{
+    background-color: var(--chicle)!important;
+}
+.bgch-uva {
+    background-color: var(--antena2);
+}
+.bgch-uva:hover{
+    background-color: var(--uva)!important;
+}
+.bgch-nyan {
+    background-color: var(--antena2);
+}
+.bgch-nyan:hover{
+    background-color: var(--nyan)!important;
+}
+.bgch-petroleo {
+    background-color: var(--antena2);
+}
+.bgch-petroleo:hover{
+    background-color: var(--petroleo)!important;
+}
+
 /* BRAND COLORS */
 
 .spgreen {
