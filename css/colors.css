@@ -38,6 +38,19 @@
     --portas: #0097ce;
     --septa: #003595;
 
+    --photoshop: #2ea3f7;
+    --illustrator: #ff710f;
+    --indesign: #ff3366;
+    --premiere: #2c0030;
+    --aftereffects: #000058;
+    --xd: #450135;
+    --figma: #0ac97f;
+    --javascript: #efd81d;
+    --jquery: #0865a6;
+    --bootstrap: #6f11ef;
+    --reactjs: #1b8797;
+    --django: #0a5437;
+
 }
 
 .color-none {
@@ -688,6 +701,10 @@
     color: var(--ingrid);
 }
 
+.border-ingrid {
+    border-color: var(--ingrid);
+}
+
 .bgc-ingrid {
     background-color: var(--ingrid);
 }
@@ -805,6 +822,7 @@
 .fill-septa:hover {
     fill: var(--antena1);
 }
+
 .letra-zull {
     color: var(--zull);
 }
@@ -812,6 +830,28 @@
 .letra-zull:hover {
     color: var(--antena1);
 }
+
+.letra-uva {
+    color: var(--uva);
+}
+
+.letra-uva:hover {
+    color: var(--antena1);
+}
+
+
+.bgc-piopio {
+    background-color: var(--piopio);
+}
+
+.bgch-piopio {
+    background-color: var(--antena2);
+}
+
+.bgch-piopio:hover {
+    background-color: var(--piopio);
+}
+
 .letra-piopio {
     color: var(--piopio);
 }
@@ -819,10 +859,131 @@
 .letra-piopio:hover {
     color: var(--antena1);
 }
-.letra-uva {
-    color: var(--uva);
+.fill-piopio {
+    fill: var(--piopio);
+}
+.fill-piopio:hover {
+    fill: var(--antena2);
+}
+.bgc-lima {
+    background-color: var(--lima);
 }
 
-.letra-uva:hover {
+.bgch-lima {
+    background-color: var(--antena2);
+}
+
+.bgch-lima:hover {
+    background-color: var(--lima);
+}
+
+.letra-lima {
+    color: var(--lima);
+}
+
+.letra-lima:hover {
     color: var(--antena1);
+}
+.fill-lima {
+    fill: var(--lima);
+}
+.fill-lima:hover {
+    fill: var(--antena2);
+}
+
+/* Colors brand */
+.photoshop {
+    color: var(--photoshop);
+}
+
+.bgc-photoshop {
+    background-color: var(--photoshop);
+}
+
+.illustrator {
+    color: var(--illustrator);
+}
+
+.bgc-illustrator {
+    background-color: var(--illustrator);
+}
+
+.indesign {
+    color: var(--indesign);
+}
+
+.bgc-indesign {
+    background-color: var(--indesign);
+}
+
+.premiere {
+    color: var(--premiere);
+}
+
+.bgc-premiere {
+    background-color: var(--premiere);
+}
+
+.aftereffects {
+    color: var(--aftereffects);
+}
+
+.bgc-aftereffects {
+    background-color: var(--aftereffects);
+}
+
+.xd {
+    color: var(--xd);
+}
+
+.bgc-xd {
+    background-color: var(--xd);
+}
+
+.figma {
+    color: var(--figma);
+}
+
+.bgc-figma {
+    background-color: var(--figma);
+}
+
+.javascript {
+    color: var(--javascript);
+}
+
+.bgc-javascript {
+    background-color: var(--javascript);
+}
+
+.jquery {
+    color: var(--jquery);
+}
+
+.bgc-jquery {
+    background-color: var(--jquery);
+}
+
+.bootstrap {
+    color: var(--bootstrap);
+}
+
+.bgc-bootstrap {
+    background-color: var(--bootstrap);
+}
+
+.reactjs {
+    color: var(--reactjs);
+}
+
+.bgc-reactjs {
+    background-color: var(--reactjs);
+}
+
+.django {
+    color: var(--django);
+}
+
+.bgc-django {
+    background-color: var(--django);
 }
