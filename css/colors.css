@@ -39,14 +39,14 @@
     --portas: #0097ce;
     --septa: #003595;
 
-    --photoshop: #2ea3f7;
-    --illustrator: #ff710f;
+    --photoshop: #0984dc;
+    --illustrator: #ff6600;
     --indesign: #ff3366;
     --premiere: #2c0030;
     --aftereffects: #000058;
-    --xd: #450135;
+    --xd: #840f68;
     --figma: #0ac97f;
-    --javascript: #efd81d;
+    --javascript: #c8b100;
     --jquery: #0865a6;
     --bootstrap: #6f11ef;
     --reactjs: #1b8797;
@@ -622,6 +622,9 @@
 .bgc-spgreen {
     background-color: var(--spgreen);
 }
+.border-spgreen {
+    border-color: var(--spgreen);
+}
 
 .bgch-spgreen {
     background-color: var(--antena2);
@@ -653,6 +656,9 @@
 .bgc-arhzull {
     background-color: var(--arhzull);
 }
+.border-arhzull {
+    border-color: var(--arhzull);
+}
 
 .bgch-arhzull {
     background-color: var(--antena2);
@@ -683,6 +689,10 @@
 
 .bgc-smrush {
     background-color: var(--smrush);
+}
+
+.border-smrush {
+    border-color: var(--smrush);
 }
 
 .bgch-smrush {
@@ -743,12 +753,16 @@
     fill: var(--antena1);
 }
 
-.bombero {
+.bomberos {
     color: var(--bomberos);
 }
 
 .bgc-bomberos {
     background-color: var(--bomberos);
+}
+
+.border-bomberos {
+    border-color: var(--bomberos);
 }
 
 .bgch-bomberos {
