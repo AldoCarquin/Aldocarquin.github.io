@@ -1,3 +1,19 @@
+.fila {
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.pep-10-resp {
+    padding-right: 10px;
+}
+.psp-10-resp {
+    padding-left: 10px;
+}
+
 .linea {
     width: 30px;
     border-bottom: 0.1px;
@@ -380,6 +396,12 @@
 @media (max-width: 767px) {
     .mbp-md-20 {
         margin-bottom: 20px;
+    }
+    .pep-10-resp {
+        padding-right: 5px;
+    }
+    .psp-10-resp {
+        padding-left: 5px;
     }
 }
 @media (max-width: 575px) {
