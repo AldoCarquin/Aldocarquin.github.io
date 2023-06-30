@@ -10,6 +10,7 @@
     --uva: #751D94;
     --nyan: #6ea568;
     --petroleo: #09547f;
+    --antena5: #373737; 
     --antena4: #cfcece;
     --antena3: #a3a3a3;
     --antena2: #D9D9D9;
@@ -101,6 +102,10 @@
 
 .petroleo {
     color: var(--petroleo);
+}
+
+.antena5 {
+    color: var(--antena5)
 }
 
 .antena4 {
@@ -212,6 +217,9 @@
     background-color: var(--petroleo);
 }
 
+.bgc-antena5 {
+    background-color: var(--antena5);
+}
 .bgc-antena4 {
     background-color: var(--antena4);
 }
@@ -320,6 +328,9 @@
     border-color: var(--petroleo) !important;
 }
 
+.border-antena5 {
+    border-color: var(--antena5) !important;
+}
 .border-antena4 {
     border-color: var(--antena4) !important;
 }
@@ -793,6 +804,9 @@
 
 .bgc-portas {
     background-color: var(--portas);
+}
+.border-portas {
+    border-color: var(--portas);
 }
 
 .bgch-portas {
