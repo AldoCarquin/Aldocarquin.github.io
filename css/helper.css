@@ -460,6 +460,13 @@ hyphens: none !important;
     min-height: 200px;
 }
 
+.mnhp-160 {
+    min-height: 160px;
+}
+.mnhp-200 {
+    min-height: 200px;
+}
+
 /* MAX-HEIGHT */
 .mxh-1 {
     max-height: 1%;

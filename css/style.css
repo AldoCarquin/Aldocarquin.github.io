@@ -190,11 +190,11 @@
     visibility: hidden;
     position: absolute;
 }
-.vis-lg {
+.vis-lg-nonsm {
     visibility: visible;
     position: inherit;
 }
-.invis-lg {
+.invis-lg-nonsm {
     visibility: hidden;
     position: absolute;
 }
@@ -209,18 +209,6 @@
     color: var(--antena1);
     transition: 200ms;
 }
-.card {
-    width: 30%;
-    height: 200px;
-    margin: 10px;
-    transition: all 0.3s;
-    border: none;
-    object-fit: cover;
-  }
-  
-  .card:hover {
-    width: 80%;
-  }
 
   .hover-texto {
     color: var(--negro);
@@ -251,7 +239,59 @@
     background-size: cover;
   }
 
+  .scale1-1:hover{
+    transform: scale(1.1);
+    transition: 100ms;
+  }
+
+  @media (min-width: 1199px) {
+
+    .fsp-18-responsive {
+        font-size: 18px;
+    }
+    .icon-sp {
+        height: 100px;
+       width: 100px;
+    }
+    .icon-arh {
+        height: 70px;
+        /* width: 60px; */
+    }
+    .icon-sm {
+        height: 70px;
+        /* width: 60px; */
+    }
+    .icon-ingrid {
+        /* height: 70px; */
+        width: 80px;
+    }
+    .icon-bomberos {
+        /* height: 70px; */
+        width: 100px;
+    }
+    .icon-portas {
+        height: 75px;
+        /* width: 120px; */
+    }
+    .icon-port {
+        height: 75px;
+        /* width: 120px; */
+    }
+    .icon-aldo {
+        height: 70px;
+        /* width: 80px; */
+    }
+    .icon-septa {
+        /* height: 70px; */
+        width: 100px;
+    }
+    .icon-xerox {
+        height: 30px;
+        /* width: 100px; */
+    }
+}
 @media (max-width: 1199px) {
+
     .espaciado-res {
         margin-bottom: 20px;
     }
@@ -263,6 +303,50 @@
     .borde-der-cv {
         margin-left: 0px;
     }
+
+    .fsp-proyectos {
+        font-size: 14px;
+    }
+    .icon-sp {
+        height: 80px;
+       width: 80px;
+    }
+    .icon-arh {
+        height: 40px;
+        /* width: 60px; */
+    }
+    .icon-sm {
+        height: 50px;
+        /* width: 60px; */
+    }
+    .icon-ingrid {
+        /* height: 70px; */
+        width: 70px;
+    }
+    .icon-bomberos {
+        /* height: 70px; */
+        width: 70px;
+    }
+    .icon-portas {
+        height: 50px;
+        /* width: 120px; */
+    }
+    .icon-port {
+        height: 50px;
+        /* width: 120px; */
+    }
+    .icon-aldo {
+        height: 40px;
+        /* width: 80px; */
+    }
+    .icon-septa {
+        /* height: 70px; */
+        width: 70px;
+    }
+    .icon-xerox {
+        height: 20px;
+        /* width: 100px; */
+    }
 }
 
 @media (max-width: 1220px) {
@@ -273,13 +357,13 @@
 }
 
 @media (max-width: 991px) {
-    .vis-lg {
-        visibility: visible;
-        position: inherit;
-    }
-    .invis-lg {
+    .vis-lg-nonsm {
         visibility: hidden;
         position: absolute;
+    }
+    .invis-lg-nonsm {
+        visibility: visible;
+        position: inherit;
     }
 }
 @media (max-width: 960px) {
@@ -308,4 +392,19 @@
         visibility: visible;
         position: inherit;
     }
+    .vis-lg-nonsm {
+        visibility: hidden;
+        position: absolute;
+    }
+    .invis-lg-nonsm {
+        visibility: hidden;
+        position: absolute;
+    }
 }
+
+  
+  
+  
+  
+  
+  
