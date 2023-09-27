@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldo Carquín</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/helper.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/objetos-header.css" />
+
+    <meta name="image" property="og:image" content="logos\A.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="media/icon/A_white.png">
+    <link rel="apple-touch-icon" href="mmedia/icon/A_white.png">
+
+    <!-- bootstrap 5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/380b37f5b9.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".boton-vermas").click(function () {
+                $(".ver").toggleClass("ver-menos");
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="bgc-negro w-100 hp-100 p-0 m-0">
+        <div class="container">
+            <div class="w-100 hp-100 d-flex justify-content-around align-items-center">
+                <a href="index.html" class="">
+                    <img src="media/icon/logo_negative.png" class="hp-60">
+                </a>
+                <div class="d-flex vis-768">
+                    <a href="curriculum.html" class=" head-button boton-head">Currículum</a>
+                   <!-- <a href="portafolio.html" class=" head-button boton-head">Portafolio</a>-->
+                    <a href="contacto.html" class=" head-button boton-contacto">Contacto</a>
+                </div>
+                <div class=" invis-768">
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" id="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/curriculum.html">Curriculum</a></li>
+                           <!-- <li><a href="/portafolio.html">Portafolio</a></li> -->
+                            <li><a href="/contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bgc-blanco position-relative">
+        <div class="pantalla h-100 position-absolute zindex--1">
+            <!-- A-3 -->
+            <div class="msp--20 a5objetc ">
+                <img src="elementos/A_-03.png" class="wp-200 opacity-75">
+            </div>
+            
+            <div class="msp--20 a7objetc">
+                <img src="elementos/A_-04.png" class=" wp-200 opacity-75">
+            </div>
+            
+            <div class="msp--20 a3objetc">
+                <img src="elementos/A_-05.png" class=" wp-330 opacity-75">
+            </div>
+            
+            <div class="msp--20 a10objetc">
+                <img src="elementos/A_-07.png" class=" wp-160 opacity-75">
+            </div>
+            
+            <div class="msp--20 a9objetc">
+                <img src="elementos/A_-08.png" class=" wp-180 opacity-75">
+            </div>
+            
+            <div class="msp--20 a8objetc">
+                <img src="elementos/A_-06.png" class=" wp-120 opacity-75">
+            </div>
+            <!-- 
+        -->
+
+        </div>
+        <div class="container ptp-30 pbp-10">
+            <div class="f-montserrat row msp-0 mep-0 mbp-20">
+                <div class="col-xl-8 col-12 p-0 espaciado-res zindex-1">
+                    <div class="p-3 border-radius-p30 h-100 borde-izq-cv">
+                        <div class="text-start f-thin fsp-40 f-montserrat f-regular"><b>Aldo</b> José</div>
+                        <div class="text-start f-thin fsp-40 f-montserrat f-regular">González <b>Carquín</b></div>
+                        <div class="text-start f-thin fsp-32 f-montserrat f-regular"><b>Fullstack</b> Developer</div>
+                    </div>
+                </div>
+                <div class="columna-cv2 align-items-end d-flex negro zindex-1">
+                    <div class="p-3 border-radius-p30 cv-2 w-100 borde-der-cv">
+                        <div class="text-start fw-600 fsp-20">RUT</div>
+                        <div class="text-start f-light fsp-20 no-decotext">19.384.990-3</div>
+                        <div class="text-start fw-600 fsp-20">Celular</div>
+                        <a href="tel:+56988405221" class="mtp--10 text-start link-cv-2 f-light fsp-18 no-decotext">+569
+                            8840 5221</a>
+                        <div class="text-start fw-600 fsp-20">Mail</div>
+                        <a href="mailto:aldo.gonzalez.carquin@gmail.com"
+                            class="d-flex link-cv-2 flex-wrap text-start f-light fsp-18 no-decotext">
+                            <div class="">aldo.gonzalez.carquin</div>
+                            <div class="">@gmail.com</div>
+                        </a>
+                        <div class="text-start fw-600 fsp-20">Portafolio web</div>
+                        <a href="https://aldocarquin.github.io/index.html"
+                            class="mtp--10 text-start f-light fsp-18 link-cv-2 no-decotext">aldocarquin.github.io/</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container ptp-30 pbp-30">
+        <div class="f-montserrat row msp-0 mep-0">
+            <div class="col-xl-8 col-12 m-0 p-0">
+                <!-- FORMACIÓN ACADÉMICA -->
+                <div class=" mbp-20 psp-30 ptp-30 pbp-20 pep-30 border-radius-p30 cv-3 borde-izq-cv">
+                    <div class="border-4 border-rosa py-2 col-4 text-center border-radius-p30 w-100 mxwp-250">
+                        <div class="fsp-16 blanco f-bold text-nowrap">FORMACIÓN ACADÉMICA</div>
+                    </div>
+                    <div class="col-8"></div>
+                    <!-- FORMACIÓN 1 -->
+                    <div class="row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--20 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-rosa rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20 blanco">
+                                    <div class="">Jul 2023 - Oct 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10 blanco">
+                            <div class="fw-800 fsp-24">Fullstack Java</div>
+                            <div class="fw-600 fsp-24">Generation <span class="fw-200">(Grupo Mckinsey)</span></div>
+                            <div class="fw-light fsp-18">Experiencia en HTML, CSS, JavaScript, Java, React y Git para la 
+                                ejecución de proyectos integrales en el ámbito de TI. </div>
+                            <div class="fw-800 fsp-18 rosa">Certificado 560 horas cursadas</div>
+                        </div>
+                    </div>
+                    <!-- FORMACIÓN 2 -->
+                    <div class="row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--20 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-rosa rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20 blanco">
+                                    <div class="">2017-2021</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10 blanco">
+                            <div class="fw-800 fsp-24">Diseño integral</div>
+                            <div class="fw-600 fsp-24">Pontificia Universidad Católica</div>
+                            <div class="fw-light fsp-18">Diseño web, UX/UI, diseño de servicios, audiovisual,
+                                postproducción, gráfico, branding, editorial. </div>
+                            <div class="fw-800 fsp-18 rosa">Título profesional universitario</div>
+                        </div>
+                    </div>
+                    <!-- FORMACIÓN 3 -->
+                    <div class="row m-0 ptp-30 blanco">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--20 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-rosa rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="">2015-2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Arquitectura</div>
+                            <div class="fw-600 fsp-24">Pontificia Universidad Católica</div>
+                            <div class="fw-light fsp-18">Planos, cortes, fotomontajes, realización de proyectos,
+                                etc
+                            </div>
+                            <div class="fw-800 fsp-18 rosa">2 años cursados</div>
+                        </div>
+                    </div>
+                    <!-- FORMACIÓN 4 -->
+                    <div class="row m-0 ptp-30 blanco">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--20 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-rosa rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="">2013-2014</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Técnico en telecomunicaciónes</div>
+                            <div class="fw-600 fsp-24">Colegio Polivalente Cardenal José María Caro</div>
+                            <div class="fw-light fsp-18">Configuración de routers, armado y desarmado de
+                                computadores, electrónica y arreglos de impresoras.</div>
+                            <div class="fw-800 fsp-18 rosa">Título técnico</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN FORMACIÓN -->
+                <!-- EXPERIENCIA LABORAL -->
+                <div class=" border-radius-p30 mbp-20 cv-4 blanco psp-30 ptp-30 pbp-20 pep-30 borde-izq-cv">
+                    <div class="border-4 border-esmeralda p-2 col-4 border-radius-p30 text-center w-100 mxwp-250">
+                        <div class="fsp-16 blanco f-bold">EXPERIENCIA</div>
+                    </div>
+                    <div class="col-8"></div>
+                    <!-- EXPERIENCIA 1 -->
+                    <div class="row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--25 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-esmeralda rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="fw-light fsp-20">Esporádico</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Trabajos particulares</div>
+                            <div class="fw-600 fsp-24">Freelance</div>
+                            <div class="fw-light fsp-18">Aplicación de linea corporativa de marca,
+                                creación de <span class="f-bold">contenido de medios</span>. Elaboración
+                                de gráficos para <span class="f-bold">aplicaciones de multiples
+                                    plataformas</span>. Creación de maquetas, aplicación
+                                de estructura y propuesta de <span class="f-bold">diseño web</span>.</span>.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- EXPERIENCIA 2 -->
+                    <div class="row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--25 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-esmeralda rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="fw-light fsp-20">Nov 2021 - Oct 2022</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Desarrollador de recursos digitales</div>
+                            <div class="fw-600 fsp-24">Grupo SM</div>
+                            <div class="fw-light fsp-18">Adaptación de páginas de libros a formato web.
+                                Utilización de lenguajes <span class="f-bold">html</span>, <span
+                                    class="f-bold">css</span>, <span class="f-bold">react.js</span> .
+                                Manejo de <span class="f-bold">bootstrap</span>. Creación de maquetas en
+                                <span class="f-bold">Adobe XD</span>.
+                            </div>
+                            <div class="fw-800 fsp-18 esmeralda">Supervisado por Jorge Espinoza</div>
+                            <div class="fw-800 fsp-181 esmeralda">jorge.espinoza@grupo-sm.com</div>
+                        </div>
+                    </div>
+                    <!-- EXPERIENCIA 3 -->
+                    <div class="row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--25 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-esmeralda rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="fw-light fsp-20">Ago 2021 - Oct 2021</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Content Media</div>
+                            <div class="fw-600 fsp-24">Macrotel</div>
+                            <div class="fw-light fsp-18">Creación de piezas gráficas para redes sociales. Manejo de imágenes de 
+                                productos en Illustrator. Creación de propuestas gráficas para retail online </div>
+                                <div class="fw-800 fsp-18 esmeralda">Supervisado por Israel Corrtez</div>
+                                <div class="fw-800 fsp-181 esmeralda">icortez@macrotel.cl</div>
+                        </div>
+                    </div>
+                    
+                    <!-- EXPERIENCIA 4 -->
+                    <div class="ver ver-menos row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--25 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-esmeralda rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="fw-light fsp-20">Feb 2021 - Jun 2021</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Diseñador en jefe de Campaña</div>
+                            <div class="fw-600 fsp-24">Campaña Ingrid Villena</div>
+                            <div class="fw-light fsp-18">Generar <b>estrategia</b> en redes sociales enfocada
+                                en
+                                las personas del distrito representado. Creación de
+                                <span class="f-bold">línea de identidad</span> para la candidata, considerando
+                                <span class="f-bold">material gráfico</span>, <span class="f-bold">impreso</span> y
+                                <span class="f-bold">audiovisual</span>.
+                            </div>
+                            <!-- <div class="fw-800 fsp-18 esmeralda">Supervisado por Ingrid Villena</div>
+                                    <div class="fw-800 fsp-181 esmeralda">fda.villena@gmail.com</div> -->
+                        </div>
+                    </div>
+                    <!-- EXPERIENCIA 5 -->
+                    <div class="ver ver-menos row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--25 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-esmeralda rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="fw-light fsp-20">Abr 2020 - Jun 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Práctica de servicio de Diseño</div>
+                            <div class="fw-600 fsp-24">Fundación Portas</div>
+                            <div class="fw-light fsp-18">Trabajar material didactico y de redes sociales.
+                                Realización de contenido en RRSS. Diseño de manual de
+                                estudio, creación de <span class="f-bold">maqueta gráfica de pagina web</span>.
+                            </div>
+                            <div class="fw-800 fsp-18 esmeralda">Supervisado por Victor Gallardo</div>
+                            <div class="fw-800 fsp-181 esmeralda">vgallardo@gmail.com</div>
+                        </div>
+                    </div>
+                    <!-- EXPERIENCIA 6 -->
+                    <div class="ver ver-menos row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--25 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-esmeralda rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="fw-light fsp-20">Feb 2020 - Mar 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Práctica de oficina de Diseño</div>
+                            <div class="fw-600 fsp-24">Academia Nacional de Bomberos</div>
+                            <div class="fw-light fsp-18">Participación en Fundación Cultural de Bomberos. Creación de
+                                contenido, tratamiento de imágenes, diseño de ambiente. Realización de post en redes
+                                sociales,
+                                implementación de sistemas automatizado de publicaciónes. Creación de una linea
+                                gráfica de la
+                                fundación.
+                            </div>
+                            <div class="fw-800 fsp-18 esmeralda">Supervisado por Brian Arcos</div>
+                            <div class="fw-800 fsp-181 esmeralda">brian.arcos@bomberos.cl</div>
+                        </div>
+                    </div>
+                    <!-- EXPERIENCIA 7  -->
+                    <div class="ver ver-menos row m-0 ptp-30">
+                        <div class="col-md-4 col-12 ptp-5 msp-10">
+                            <div class="d-flex m-0 p-0 position-relative">
+                                <div class="msp--25 mxhp-10 mtp-7 ptp-3">
+                                    <div class="bgc-esmeralda rounded-circle hp-10 wp-10"></div>
+                                </div>
+                                <div class="fsp-20 f-regular msp-20">
+                                    <div class="fw-light fsp-20">Dic 2014 - Feb 2015</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 msp--10">
+                            <div class="fw-800 fsp-24">Técnico en diseño</div>
+                            <div class="fw-600 fsp-24">Xerox</div>
+                            <div class="fw-light fsp-18">Manipulación de maquinaria de impresión. diseño y
+                                creación
+                                de
+                                material de muestra
+                                de impresión. Creación de material, calendarios, papelería, afiches, brochure,
+                                etc.
+                            </div>
+                            <div class="fw-800 fsp-18 esmeralda">Supervisado por Myriam Villaman</div>
+                            <div class="fw-800 fsp-181 esmeralda">myriam.villaman@xerox.com</div>
+                        </div>
+                    </div>
+                    <div class="mtp-50 fsp-18 f-light w-100 d-flex justify-content-center">
+                        <button class="boton-vermas p-0 m-0" id="verButton">
+                            <div class="ver ver-menos m-0 p-0">Ver menos</div>
+                            <div class="ver m-0 p-0">Ver más</div>
+                        </button>
+                    </div>
+                </div>
+                <!-- FIN EXPERIENCIA -->
+            </div>
+
+            <!-- HABILIDADES PERSONALES -->
+            <div class="col-xl-4 col-12 p-0 d-flex flex-column blanco">
+                <div class="p-3 border-radius-p30 cv-5 w-100 borde-der-cv mbp-20">
+                    <div class="border-4 border-amarillo w-100 p-2 text-center border-radius-p30">
+                        <div class="f-montserrat fsp-16 blanco msp-10 f-bold">HABILIDADES PERSONALES</div>
+                    </div>
+                    <div class="ajuste-columna">
+                        <div class="ptp-20 pbp-10 f-montserrat fsp-20 f-regular">
+                            <div class="d-flex align-items-center">
+                                <div class="punto bgc-amarillo msp-10 mep-10"></div>
+                                <div class="f-regular fsp-18">Resolución de conflictos</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="punto bgc-amarillo msp-10 mep-10"></div>
+                                <div class="f-regular fsp-18">Trabajo en equipo</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="punto bgc-amarillo msp-10 mep-10"></div>
+                                <div class="f-regular fsp-18">Proactividad</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="punto bgc-amarillo msp-10 mep-10"></div>
+                                <div class="f-regular fsp-18">Creatividad</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="punto bgc-amarillo msp-10 mep-10"></div>
+                                <div class="f-regular fsp-18">Optimismo</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 border-radius-p30 cv-7 w-100 borde-der-cv mbp-20">
+                    <div class="border-4 border-morado w-100 p-2 text-center border-radius-p30">
+                        <div class="f-montserrat fsp-16 blanco msp-10 f-bold">IDIOMAS</div>
+                    </div>
+                    <div class="ajuste-columna">
+                        <div class="ptp-20 pbp-10 f-montserrat fsp-20 f-regular">
+                            <div class="d-flex align-items-center">
+                                <div class="punto bgc-morado msp-10 mep-10"></div>
+                                <div class="f-regular fsp-18">Español: Nativo</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="punto bgc-morado msp-10 mep-10"></div>
+                                <div class="f-regular fsp-18">Ingles: Intermedio avanzado / B2</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 border-radius-p30 bgc-antena2 w-100 borde-der-cv cv-6 mbp-20">
+                    <div class="border-4 border-verde p-2 text-center border-radius-p30">
+                        <div class="f-montserrat fsp-16 blanco f-bold">HABILIDADES TÉCNICAS</div>
+                    </div>
+                    <div class="ajuste-columna">
+                        <div class="ptp-30 msp-auto mep-auto f-montserrat fsp-20 f-regular">
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">HTML</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">CSS</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Bootstrap</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Figma</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Javascript</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Diseño UX/UI</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="w-100 ptp-10"></div>
+
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Django</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">React.js</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Java</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Git</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="w-100 ptp-10"></div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Papelería</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Photoshop</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Illustrator</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Indesign</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="w-100 ptp-10"></div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Premiere Pro</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">After Effects</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Autocad</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="w-100 fw-500 fsp-18">Rhinoceros</div>
+                                <div class="d-flex flex-nowrap w-100 justify-content-end">
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="puntos msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                    <div class="punto-no msp-8 mep-8"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 border-radius-p30 bgc-antena2 w-100 borde-der-cv cv-7">
+                    <div class="border-4 border-morado p-2 text-center border-radius-p30">
+                        <div class="fsp-16 blanco f-bold">FORMACIÓN ADICIONAL</div>
+                    </div>
+                    <div class="ajuste-columna">
+                        <div class="ptp-30">
+                            <div class="fw-800 fsp-24">Fundación Portas</div>
+                            <div class="f-regular fsp-18">Becado de Fundación Portas. Desarrollo de
+                                habilidades
+                                blandas y académicas (20 horas semestrales) <br>2015 - 2021</div>
+                            <div class="ptp-20"></div>
+                            <div class="fw-800 fsp-24">Escuela de verano</div>
+                            <div class="f-regular fsp-18">Introducción a la economía U. de Chile.
+                                <br>Enero
+                                2014
+                            </div>
+                            <div class="ptp-20"></div>
+                            <div class="fw-800 fsp-24">Propedéutico EDT</div>
+                            <div class="f-regular fsp-18">Escuela de desarrollo de talentos. FEN U de
+                                Chile. (10 horas semanales)
+                                <br>
+                                2013 - 2014
+                            </div>
+                            <div class="ptp-20"></div>
+                            <div class="fw-800 fsp-24">PENTA UC</div>
+                            <div class="f-regular fsp-18">Programa educacional para niños con talentos
+                                académicos
+                                de la Universidad Católica. <br>2018 - 2013</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="js/hamburguesa.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>

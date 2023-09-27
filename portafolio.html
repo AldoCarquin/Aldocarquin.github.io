@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldo Carquín</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/helper.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/objetos-header.css" />
+
+    <meta name="image" property="og:image" content="logos\A.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="media/icon/A_white.png">
+    <link rel="apple-touch-icon" href="mmedia/icon/A_white.png">
+
+    <!-- bootstrap 5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/380b37f5b9.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".boton-vermas").click(function () {
+                $(".ver").toggleClass("ver-menos");
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="bgc-negro w-100 hp-100 p-0 m-0">
+        <div class="container">
+            <div class="w-100 hp-100 d-flex justify-content-around align-items-center">
+                <a href="index.html" class="">
+                    <img src="media/icon/logo_negative.png" class="hp-60">
+                </a>
+                <div class="d-flex vis-768">
+                    <a href="curriculum.html" class=" head-button boton-head">Currículum</a>
+                    <a href="portafolio.html" class=" head-button boton-head">Portafolio</a>
+                    <a href="contacto.html" class=" head-button boton-contacto">Contacto</a>
+                </div>
+                <div class=" invis-768">
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" id="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/curriculum.html">Curriculum</a></li>
+                            <li><a href="/portafolio.html">Portafolio</a></li>
+                            <li><a href="/contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bgc-blanco">
+        <div class="container">
+            <div class="text-center fsp-32 f-montserrat fw-bold py-4">Proyectos</div>
+        </div>
+    </div>
+    <div class="container py-4 mbp-200">
+        <div class="row">
+            <div class="col-4">
+                <a href="" id="sp" class="">
+                    <div class="hp-320 bgc-spgreen border-radius-p30"></div>
+                </a>
+            </div>
+            <div class="col-3">
+                <div class="hp-160 bgc-blanco border-radius-p30"></div>
+            </div>
+            <div class="col-1">
+                <div class="hp-160 bgc-blanco border-radius-p30"></div>
+            </div>
+            <div class="col-4">
+                <div class="hp-80 bgc-blanco border-radius-p30"></div>
+            </div>
+            <div class="col-1">
+                <div class="hp-80 bgc-blanco border-radius-p30 mtp-26"></div>
+            </div>
+            <div class="col-3">
+                <div class="hp-80 bgc-blanco border-radius-p30 mtp-26"></div>
+            </div>
+            <div class="col-4">
+                <a href="" id="arh" class="">
+                    <div class="hp-320 bgc-arhzull border-radius-p30 mtp--134"></div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="" id="sm" class="">
+                    <div class="hp-320 bgc-smrush border-radius-p30 mtp--214"></div>
+                </a>
+            </div>
+            <div class="col-4">
+                <div class="hp-80 bgc-blanco border-radius-p30 mtp--54"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container py-4 mbp-200">
+        <div class="row gx-4">
+            <div class="col-4">
+                <div id="sp-comercial" class="hp-320 bgc-spgreen border-radius-p30"></div>
+                <div class="mtp-26">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="hp-60 bgc-blanco border-radius-p30"></div>
+                    </div>
+                    <div class="col-9">
+                        <div class="hp-60 bgc-blanco border-radius-p30"></div>
+                    </div>
+                </div>
+            </div>
+                <div class="hp-150 bgc-blanco border-radius-p30 mtp-26"></div>
+
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-7">
+                        <div class="hp-120 bgc-blanco border-radius-p30 "></div>
+                    </div>
+                    <div class="col-5">
+                        <div class="hp-120 bgc-blanco border-radius-p30 "></div>
+                    </div>
+                </div>
+                <div id="arh" class="hp-320 bgc-arhzull  border-radius-p30 mtp-26"></div>
+            </div>
+            <div class="col-4">
+                <div class="hp-40 bgc-blanco  border-radius-p30"></div>
+                <div id="sm" class="hp-320 bgc-smrush  border-radius-p30 mtp-26"></div>
+                <div class="hp-180 mtp-25">
+                    <div class="w-100 hp-55 bgc-blanco border-f1up"></div>
+                    <div class="d-flex justify-content-end">
+                        <div class="w-50 hp-90 bgc-blanco border-f1dw position-relative">
+                            <div
+                                class="position-absolute zindex--1 top-0 start-0 bgc-blanco hp-30 wp-30 msp--30 position-relative">
+                                <div class="position-absolute wp-30 hp-30 bgc-negro zindex--1 border-f1md"></div>
+                            </div>
+                        </div>
+                    </div>
+                    </dv>
+                </div>
+            </div>
+
+        </div>
+        <div class="mtp--120">
+            <div class="row gx-4">
+                <div class="col-4">
+                    <div class="hp-120"></div>
+                    <div id="ingrid" class="hp-320 bgc-ingrid  border-radius-p30 mtp-26"></div>
+                </div>
+                <div class="col-2">
+                    <div class="w-100 hp-90 bgc-blanco border-f1up mtp-26">
+                    </div>
+                    <div class="d-flex justify-content-end position-relative">
+                        <div class="w-50 hp-230 bgc-blanco border-f1dw position-relative">
+                            <div
+                                class="position-absolute top-0 start-0 bgc-blanco hp-30 wp-30 msp--30 position-relative">
+                                <div class="position-absolute wp-30 hp-30 bgc-negro tr-curve"></div>
+                            </div>
+                        </div>
+                        <div class="position-absolute w-50 top-0 start-0 mtp-26 pep-26">
+                            <div class="hp-140 w-100 bgc-blanco border-radius-p30"></div>
+                        </div>
+                        <div class="position-absolute w-50 top-50 start-0 mtp-76 pep-26">
+                            <div class="hp-150 w-100 bgc-blanco border-radius-p30"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div id="bomberos" class="hp-320 bgc-bomberos mtp-26 border-radius-p30 mep-10"></div>
+                </div>
+                <div class="col-2">
+                    <div class="hp-110"></div>
+                    <div class="w-104 d-flex justify-content-between msp--10">
+                        <div class="w-45 hp-60 bgc-blanco border-radius-p30 mbp-26 "></div>
+                        <div class="w-45 hp-86 bgc-blanco border-f3up position-relative">
+                            <div
+                                class="position-absolute bottom-0 start-0 bgc-blanco hp-30 wp-30 msp--30 position-relative">
+                                <div class="position-absolute wp-30 hp-30 bgc-negro br-curve"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-104 hp-50 msp--10 bgc-blanco border-f3md">
+                    </div>
+                    <div class="w-104 d-flex justify-content-between msp--10">
+                        <div class="w-45 hp-112 bgc-blanco position-relative">
+                            <div class="position-absolute top-0 end-0 bgc-blanco hp-30 wp-30 mep--30 position-relative">
+                                <div class="position-absolute wp-30 hp-30 bgc-negro tl-curve"></div>
+                            </div>
+                            <div
+                                class="position-absolute bottom-0 end-0 bgc-blanco hp-30 wp-30 mep--30 position-relative">
+                                <div class="position-absolute wp-30 hp-30 bgc-negro bl-curve"></div>
+                            </div>
+                            <div
+                                class="position-absolute bottom-0 start-0 bgc-blanco hp-30 wp-30 msp--30 position-relative">
+                                <div class="position-absolute wp-30 hp-30 bgc-negro br-curve"></div>
+                            </div>
+                        </div>
+                        <div class="w-45 hp-60 bgc-blanco border-radius-p30 mtp-26 "></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mtp--95">
+            <div class="row ">
+                <div class="col-1">
+                    <div class="hp-110"></div>
+                    <div class="hp-80 border-radius-p30 bgc-blanco"></div>
+                    <div class="hp-240 bgc-blanco mtp-26 tl-curve tr-curve position-relative">
+                        <div class="position-absolute bottom-0 end-0 bgc-blanco hp-30 wp-30 mep--30 position-relative">
+                            <div class="position-absolute wp-30 hp-30 bgc-negro bl-curve"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="hp-110"></div>
+                    <div id="portas" class="hp-320 bgc-portas border-radius-p30 mep-13"></div>
+                </div>
+                <div class="col-4">
+                    <div id="prtf-2017" class="hp-320 bgc-verde border-radius-p30 msp--13 "></div>
+                </div>
+                <div class="col-3">
+                    <div class="hp-110 bgc-blanco border-radius-p30 mtp--3"></div>
+                    <div class="hp-190 bgc-blanco mtp-26 border-radius-p30"></div>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-2">
+                    <div class="hp-80 bgc-blanco mtp--106 border-radius-p30"></div>
+                </div>
+                <div class="col-1">
+                    <div class="hp-80 bgc-blanco mtp--106 border-radius-p30 mep-13"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="d-flex mep-13">
+                    <div class="w-250 hp-80 bgc-blanco bl-curve br-curve tr-curve"></div>
+                    <div class="w-100 hp-80 bgc-blanco border-radius-p30 msp-26"></div>
+                    <div class="w-100 hp-80 bgc-blanco border-radius-p30 msp-26"></div>
+                </div>
+                <div id="prtf-web" class="hp-320 bgc-amarillo border-radius-p30 mep-13 mtp-26"></div>
+            </div>
+            <div class="col-4">
+                <div id="septa" class="hp-320 bgc-septa border-radius-p30 mep-13"></div>
+            </div>
+            <div class="col-4">
+                <div id="xerox" class="hp-320 bgc-smrush border-radius-p30 mtp--106"></div>
+            </div>
+            <div class="col-8"></div>
+            <div class="col-2">
+                <div class="hp-106 bgc-blanco tl-curve tr-curve mtp--186 position-relative">
+                    <div class="position-absolute bottom-0 start-0 bgc-blanco hp-30 wp-30 msp--30 position-relative">
+                        <div class="position-absolute wp-30 hp-30 bgc-negro br-curve"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-1">
+                <div class="hp-80 bgc-blanco border-radius-p30 mtp--80"></div>
+            </div>
+            <div class="col-5">
+                <div class="hp-80 bgc-blanco tl-curve bl-curve br-curve mtp--80"></div>
+            </div>
+            <div class="col-2">
+                <div class="hp-188 bgc-blanco border-radius-p30 mtp--186"></div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <script src="js/perfiles.js"></script>
+    <script src="js/hamburguesa.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
