@@ -275,6 +275,51 @@ body {
   border-color: var(--amarillo);
   border-width: 2px;
 }
+.boton-linkedin {
+  background-color: var(--azul);
+  color: var(--negro);
+  border-style: solid!important;
+  border-color: var(--azul);
+  border-width: 2px;
+  transition: 200ms;
+}
+.boton-linkedin:hover {
+  background-color: var(--negro);
+  color: var(--azul);
+  border-style: solid!important;
+  border-color: var(--azul);
+  border-width: 2px;
+}
+.boton-github {
+  background-color: var(--verde);
+  color: var(--negro);
+  border-style: solid!important;
+  border-color: var(--verde);
+  border-width: 2px;
+  transition: 200ms;
+}
+.boton-github:hover {
+  background-color: var(--negro);
+  color: var(--verde);
+  border-style: solid!important;
+  border-color: var(--verde);
+  border-width: 2px;
+}
+.boton-behance {
+  background-color: var(--morado);
+  color: var(--negro);
+  border-style: solid!important;
+  border-color: var(--morado);
+  border-width: 2px;
+  transition: 200ms;
+}
+.boton-behance:hover {
+  background-color: var(--negro);
+  color: var(--morado);
+  border-style: solid!important;
+  border-color: var(--morado);
+  border-width: 2px;
+}
 .boton-portafolio-head {
   background-color: var(--amarillo);
   color: var(--blanco);
