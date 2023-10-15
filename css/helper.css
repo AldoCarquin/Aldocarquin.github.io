@@ -193,6 +193,9 @@ pointer-events: none;
 .wp-700 {
     width: 700px;
 }
+.wp-1200 {
+    width: 1200px;
+}
 
 /* MIN WIDTH */
 .min-w-1 {
