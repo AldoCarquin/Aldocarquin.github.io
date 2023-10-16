@@ -3,6 +3,7 @@ body {
   padding: 0px;
   background-color: var(--negro) !important;
   width: 100%;
+  overflow: scroll;
 }
 
 /* hamburguesa*/
@@ -880,6 +881,15 @@ body {
 .text-skills {
   font-weight: 200;
   font-size: 14px;
+}
+.fantasma {
+  color: var(--blanco);
+}
+.fantasma:hover{
+  color: var(--morado);
+}
+.fantasma::after{
+  color: var(--morado);
 }
 
 @media (min-width: 768px) {

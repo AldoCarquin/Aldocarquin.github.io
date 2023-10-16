@@ -241,6 +241,9 @@ pointer-events: none;
 .mxw-1 {
     max-width: 1%;
 }
+.mxw-70 {
+    max-width: 70%;
+}
 .mxw-100 {
     max-width: 100%;
 }
