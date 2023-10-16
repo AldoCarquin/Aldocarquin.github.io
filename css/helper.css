@@ -193,6 +193,9 @@ pointer-events: none;
 .wp-700 {
     width: 700px;
 }
+.wp-800 {
+    width: 800px;
+}
 .wp-1200 {
     width: 1200px;
 }
@@ -502,6 +505,9 @@ pointer-events: none;
 }
 .hp-700 {
     height: 700px;
+}
+.hp-800 {
+    height: 800px;
 }
 .hp-900 {
     height: 900px;
@@ -1577,4 +1583,14 @@ pointer-events: none;
 }
 .br-curve {
     border-bottom-right-radius: 30px;
+}
+
+.top-20 {
+    top: 20%;
+}
+.top-25 {
+    top: 25%;
+}
+.top-30 {
+    top: 30%;
 }

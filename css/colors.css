@@ -260,6 +260,10 @@
     border-color: var(--white);
 }
 /* Fills  */
+
+.fill-blanco {
+    fill: var(--blanco);
+}
 /* Fondo Hover */
 /* fondo */
 /* BRAND COLORS */
