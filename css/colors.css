@@ -5,9 +5,9 @@
     --nieve: #f8ffe5;
     --verde: #06d6a0;
     --azul: #0096d7;
-    --esmeralda:#1b9aaa;
+    --esmeralda:#2c9b95;
     --morado: #8a629a;
-    --rosa: #0ca6c5;
+    --rosa: #d85963;
     --amarillo: #eeab11;
     --naranjo: #db5000;
  
@@ -280,14 +280,20 @@
 }
 
 .bgch-spgreen {
-    background-color: var(--blanco);
+    background-color: var(--negro);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .bgch-spgreen:hover {
     background-color: var(--spgreen);
+    -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.911);
 }
 .fill-spgreen {
     fill: var(--spgreen)!important;
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .fill-spgreen:hover {
@@ -295,11 +301,12 @@
 }
 
 .letra-sp {
-    color: var(--spgreen);
+    color: var(--blanco);
+
 }
 
 .letra-sp:hover {
-    color: var(--blanco);
+    color: var(--spgreen);
 }
 
 .arhzull {
@@ -311,10 +318,12 @@
 }
 .border-arhzull {
     border-color: var(--arhzull);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .bgch-arhzull {
-    background-color: var(--blanco);
+    background-color: var(--negro);
 }
 
 .bgch-arhzull:hover {
@@ -323,6 +332,8 @@
 
 .letra-arh {
     color: var(--arhzull);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .letra-arh:hover {
@@ -384,15 +395,21 @@
 }
 
 .bgch-ingrid {
-    background-color: var(--blanco);
+    background-color: var(--negro);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .bgch-ingrid:hover {
     background-color: var(--ingrid);
+    -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.911);
 }
 
 .letra-ingrid {
     color: var(--ingrid);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .letra-ingrid:hover {
@@ -419,15 +436,21 @@
 }
 
 .bgch-bomberos {
-    background-color: var(--blanco);
+    background-color: var(--negro);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .bgch-bomberos:hover {
     background-color: var(--bomberos);
+    -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.911);
 }
 
 .letra-bomberos {
     color: var(--bomberos);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .letra-bomberos:hover {
@@ -452,15 +475,21 @@
 }
 
 .bgch-portas {
-    background-color: var(--blanco);
+    background-color: var(--negro);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .bgch-portas:hover {
     background-color: var(--portas);
+    -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.911);
 }
 
 .letra-portas {
     color: var(--portas);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .letra-portas:hover {
@@ -482,7 +511,9 @@
 }
 
 .bgch-septa {
-    background-color: var(--blanco);
+    background-color: var(--septa);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .bgch-septa:hover {
@@ -491,6 +522,8 @@
 
 .letra-septa {
     color: var(--septa);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 .letra-septa:hover {
@@ -536,29 +569,47 @@
 .border-wzp {
     border-color: var(--wzp)!important;
 }
-.letra-zull {
-    color: var(--zull);
+
+
+.letra-esmeralda {
+    color: var(--esmeralda);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
-.letra-zull:hover {
+.letra-esmeralda:hover {
     color: var(--blanco);
 }
-
-.letra-uva {
-    color: var(--uva);
+.bgch-esmeralda {
+    background-color: var(--negro);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
-.letra-uva:hover {
+.bgch-esmeralda:hover {
+    background-color: var(--esmeralda);
+    -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.911);
+}
+.letra-morado {
+    color: var(--morado);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
+}
+
+.letra-morado:hover {
     color: var(--blanco);
 }
-
-
-.bgc-piopio {
-    background-color: var(--piopio);
+.bgch-morado {
+    background-color: var(--negro);
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
-.bgch-piopio {
-    background-color: var(--blanco);
+.bgch-morado:hover {
+    background-color: var(--morado);
+    -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.911);
 }
 
 .bgch-piopio:hover {
