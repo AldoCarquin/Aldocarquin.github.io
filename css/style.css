@@ -891,6 +891,9 @@ body {
 .fantasma::after{
   color: var(--morado);
 }
+.w-50-res {
+  width: 50%;
+}
 
 @media (min-width: 768px) {
   .vis-768 {
@@ -1115,6 +1118,10 @@ body {
     opacity: 20%;
     top: 65%;
   }
+  .w-50-res {
+    width: 100%;
+  }
+  
 }
 
 @media (max-width: 575px) {
