@@ -895,6 +895,26 @@ body {
   width: 50%;
 }
 
+.icon-sp {
+  width: 150px;
+  height: 150px;
+}
+.icon-bombero {
+  max-width: 150px;
+}
+.icon-portfolio {
+  max-width: 100px;
+}
+.icon-ingrid {
+  width: 250px;
+}
+.icon-fantasma {
+  width: 250px;
+}
+.icon-portas {
+  height: 150px;
+}
+
 @media (min-width: 768px) {
   .vis-768 {
     visibility: visible;
@@ -927,55 +947,6 @@ body {
     width: 33.33333333% !important;
   }
 
-  .icon-sp {
-    height: 100px;
-    width: 100px;
-  }
-
-  .icon-arh {
-    height: 70px;
-    /* width: 60px; */
-  }
-
-  .icon-sm {
-    height: 70px;
-    /* width: 60px; */
-  }
-
-  .icon-ingrid {
-    /* height: 70px; */
-    width: 80px;
-  }
-
-  .icon-bomberos {
-    /* height: 70px; */
-    width: 100px;
-  }
-
-  .icon-portas {
-    height: 75px;
-    /* width: 120px; */
-  }
-
-  .icon-port {
-    height: 75px;
-    /* width: 120px; */
-  }
-
-  .icon-aldo {
-    height: 70px;
-    /* width: 80px; */
-  }
-
-  .icon-septa {
-    /* height: 70px; */
-    width: 100px;
-  }
-
-  .icon-xerox {
-    height: 30px;
-    /* width: 100px; */
-  }
 }
 
 
@@ -987,56 +958,6 @@ body {
 
   .borde-der-cv {
     margin-left: 0px;
-  }
-
-  .icon-sp {
-    height: 80px;
-    width: 80px;
-  }
-
-  .icon-arh {
-    height: 40px;
-    /* width: 60px; */
-  }
-
-  .icon-sm {
-    height: 50px;
-    /* width: 60px; */
-  }
-
-  .icon-ingrid {
-    /* height: 70px; */
-    width: 70px;
-  }
-
-  .icon-bomberos {
-    /* height: 70px; */
-    width: 70px;
-  }
-
-  .icon-portas {
-    height: 50px;
-    /* width: 120px; */
-  }
-
-  .icon-port {
-    height: 50px;
-    /* width: 120px; */
-  }
-
-  .icon-aldo {
-    height: 40px;
-    /* width: 80px; */
-  }
-
-  .icon-septa {
-    /* height: 70px; */
-    width: 70px;
-  }
-
-  .icon-xerox {
-    height: 20px;
-    /* width: 100px; */
   }
 
   .bloque-wel {

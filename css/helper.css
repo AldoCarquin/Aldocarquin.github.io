@@ -545,6 +545,9 @@ pointer-events: none;
     min-height: 200px;
 }
 
+.mnhp-50 {
+    min-height: 50px;
+}
 .mnhp-160 {
     min-height: 160px;
 }
