@@ -915,6 +915,14 @@ body {
   height: 150px;
 }
 
+.ajuste-responsive {
+  margin-top: 0px;
+}
+
+.align-items-end-resp {
+  align-items: flex-end!important;
+}
+
 @media (min-width: 768px) {
   .vis-768 {
     visibility: visible;
@@ -931,8 +939,8 @@ body {
 @media (max-width: 768px) {
   .vis-768 {
     visibility: hidden;
-    position: absolute;
-    z-index: -5;
+    position: none;
+
   }
 
   .invis-768 {
@@ -1042,6 +1050,10 @@ body {
   .w-50-res {
     width: 100%;
   }
+
+  .ajuste-responsive {
+    padding-top: 60px;
+  }
   
 }
 
@@ -1065,5 +1077,12 @@ body {
   .invis-lg-nonsm {
     visibility: hidden;
     position: absolute;
+  }
+  .ajuste-responsive {
+    padding-top: 60px;
+  }
+
+  .align-items-end-resp {
+    align-items: center!important;
   }
 }
