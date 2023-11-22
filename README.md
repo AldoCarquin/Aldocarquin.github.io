@@ -11,8 +11,7 @@ Bienvenido/a a mi portafolio web, alojado en GitHub Pages. Aquí encontrarás in
 - **Currículum**: Detalles sobre mi formación académica y experiencia profesional.
 
 - **Proyectos**:
-  - **SP Comercial**: Desarrollo de una página web completa con descripciones de la marca, productos y equipo, así como un formulario de contacto. Se trabajó en la identidad de marca, colores y usabilidad, logrando una integración eficiente con Django para un funcionamiento fluido del proyecto.
- - **[SP Comercial](https://spcomercial.cl/)**
+  - **SP Comercial**: Desarrollo de una página web completa con descripciones de la marca, productos y equipo, así como un formulario de contacto. Se trabajó en la identidad de marca, colores y usabilidad, logrando una integración eficiente con Django para un funcionamiento fluido del proyecto. **[SP Comercial](https://spcomercial.cl/)**
   - 
   - **Bomberos**: Descripción breve y enlaces relacionados.
   - **Portafolio Personal del 2016**: Descripción breve y enlaces relacionados.
