@@ -936,6 +936,11 @@ body {
   }
 }
 
+.posicion-bloquecv {
+  margin-left: 750px;
+  margin-top: 220px;
+}
+
 @media (max-width: 768px) {
   .vis-768 {
     visibility: hidden;
