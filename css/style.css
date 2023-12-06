@@ -1091,3 +1091,33 @@ body {
     align-items: center!important;
   }
 }
+
+/*ZUKI*/
+.zuki-fondo {
+  background: rgb(224, 133, 52)
+}
+.zuki-verde {
+  background: #3b8d50
+}
+.position-text-zuki {
+  padding-top: 100px;
+  max-width: 600px;
+}
+@media (max-width: 1030px) {
+  .position-text-zuki {
+    padding-top: 60px;
+    max-width: 400px;
+  }
+}
+@media (max-width: 830px) {
+  .position-text-zuki {
+    padding-top: 40px;
+    max-width: 250px;
+  }
+}
+@media (max-width: 700px) {
+  .position-text-zuki {
+    padding-top: 400px;
+    max-width: 100%;
+  }
+}
