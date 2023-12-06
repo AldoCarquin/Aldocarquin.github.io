@@ -10,6 +10,15 @@
     --rosa: #d85963;
     --amarillo: #eeab11;
     --naranjo: #db5000;
+
+    /* PALETTE DARK */
+    --verded: #00926b;
+    --azuld: #005e86;
+    --esmeraldad:#046d68;
+    --moradod: #4f3758;
+    --rosad: #973941;
+    --amarillod: #b4861b;
+    --naranjod: #9e4715;
  
     /* Colores de maqueteo */
     --red: #ff0000;
@@ -88,6 +97,27 @@
 .naranjo {
     color: var(--naranjo);
 }
+.azuld {
+    color: var(--azuld);
+}
+.verded {
+    color: var(--verded);
+}
+.esmeraldad {
+    color: var(--esmeraldad);
+}
+.moradod{
+    color: var(--moradod);
+}
+.rosad {
+    color: var(--rosad);
+}
+.amarillod {
+    color: var(--amarillod);
+}
+.naranjod {
+    color: var(--naranjod);
+}
 
 .red {
     color: var(--red);
@@ -157,6 +187,29 @@
 }
 .bgc-naranjo {
     background-color: var(--naranjo);
+}
+
+/*DARKED COLORS*/
+.bgc-verded {
+    background-color: var(--verded);
+}
+.bgc-azuld {
+    background-color: var(--azuld);
+}
+.bgc-esmeraldad {
+    background-color: var(--esmeraldad);
+}
+.bgc-moradod{
+    background-color: var(--moradod);
+}
+.bgc-rosad {
+    background-color: var(--rosad);
+}
+.bgc-amarillod {
+    background-color: var(--amarillod);
+}
+.bgc-naranjod {
+    background-color: var(--naranjod);
 }
 
 .bgc-red {
