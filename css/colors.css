@@ -19,6 +19,7 @@
     --rosad: #973941;
     --amarillod: #b4861b;
     --naranjod: #9e4715;
+    --gris: #2b2b2b;
  
     /* Colores de maqueteo */
     --red: #ff0000;
@@ -117,6 +118,9 @@
 }
 .naranjod {
     color: var(--naranjod);
+}
+.gris {
+    color: var(--gris);
 }
 
 .red {
